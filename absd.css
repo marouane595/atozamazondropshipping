@@ -1,0 +1,2091 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background: #000000;
+   min-height: 70px;
+  padding: 10px;
+ 
+}
+
+
+.logo {
+    background-color: #000000;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+}
+.logo img{
+ width: 360px;
+ height: 27px;
+}
+@media only screen and (max-width: 1067px) {
+  
+
+    header{
+        background: #000000;
+       min-height: 70px;
+       padding-top: 3px;
+     
+    }
+    .logo {
+        background: #000000;
+        color: #fff;
+        padding-top: 0px;
+        min-height: 50px;
+       /* border-bottom: #e1b400 5px solid;*/
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+    }
+
+
+
+    .logo img{
+      /*  width: 100vw; /* 100% of the viewport width */
+        width: 230px;
+        height: 20px;
+       }
+       .bbb{
+
+        display: block;
+        }
+        
+
+}
+
+@media only screen and (max-width: 1004px) {
+  
+    .header-information{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      
+    }
+    .header-information div{
+    font-size: 9px;
+       }
+
+       .header-information div a{
+        font-size: 10px;
+           }
+    
+
+
+ /*Hide the header information by default
+.header-information {
+    display: none;
+}
+
+/* When the checkbox is checked, show the header information 
+#toggle-header:checked + label + .header-information {
+    display: block;
+    z-index: 1000; /* Ensure it floats above everything 
+    position: absolute;
+}*/
+
+
+
+}
+   
+
+
+.header-information{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 100px;
+  
+    }
+    
+
+
+.ile{
+    position: relative;
+    display: inline-block;
+}
+
+.ile h3 {
+    margin: 0;
+    cursor: pointer;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.ile .contact{
+    display: none; /* Hide the text initially */
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color:black;
+    padding-left: 5px;
+    z-index: 1;
+    width: 100px;
+    height: 110px;
+
+}
+.ile a{
+    display: block; /* Make each link take up its own line */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 1px;
+    width: 80px;
+    padding-bottom: 2px;
+}
+
+.ile:hover div {
+    display: block; /* Show the text when hovering over the parent */
+}
+
+
+
+
+.anasayfa{
+
+    position: relative;
+    display: inline-block;
+    
+}
+
+.anasayfa a{
+    display: block; /* Make each link take up its own line */
+    color: rgb(0, 0, 0);
+    border-bottom: solid 1px;
+    text-decoration: none;
+    width: 80px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border-bottom: none;
+    width: auto;
+}
+
+
+.biz{
+    position: relative;
+    display: inline-block;
+}
+
+.biz h3 {
+    margin: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+.biz a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.hh{
+    position: relative;
+    display: inline-block;
+}
+
+.hh h3 {
+    margin: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+
+.h p{
+    padding-bottom: 3px;
+    border-bottom: solid 1px;
+}
+.h p a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.hh .h{
+    display: none; /* Hide the text initially */
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ddd;
+    padding-left: 5px;
+    z-index: 1;
+    width: 200px;
+
+
+}
+
+.hh:hover .h {
+    display: block; /* Show the text when hovering over the parent */
+}
+
+
+.bbb{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* Default styles (apply to all devices) */
+.backgroundw {
+    background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/WhatsApp Image 2024-08-24 at 20.06.45_c5ce54a2.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.backgroundw p {
+    color: white;
+    font-size: 20px;
+    margin: 5px 0;
+    margin-top: 190px;
+    margin-left: 100px;
+}
+
+.backgroundw p::first-line {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.backgroundw p a {
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #f4f4f4;
+    width: 200px;
+    letter-spacing: 2px;
+}
+
+.backgroundw p a:hover {
+    background-color: rgb(212, 155, 11);
+}
+
+
+
+/* Phone (less than 768px) */
+@media only screen and (max-width: 767px) {
+    .backgroundw {
+        height: 300px;
+
+    }
+
+    .backgroundw p {
+        font-size: 16px;
+        margin-top: 70px;
+        margin-left: 35px;
+    }
+
+    .backgroundw p::first-line {
+        font-size: 20px;
+    }
+
+    .backgroundw p a {
+        padding: 6px 15px;
+        width: 150px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backgroundt {
+    background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/Untitled design (1).png");
+   padding: 30px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire section */
+   /* background-position: center; /* Centers the background image */
+}
+
+
+.backgroundt section .neden .nedenanazon{
+    font-size: 45px;
+    font-weight: 700;
+    padding: 10px;
+    border-bottom: 5px solid #3498db;
+    text-align: center;
+}
+
+.üçalan {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row; /* Arrange child divs horizontally */
+    gap: 40px; /* Adds space between child divs */
+    width: 100%; /* Ensures the .üçalan covers the full width of the parent */
+    justify-content:flex-start; /* Distributes child divs evenly with space around them */
+}
+
+.üçalan div {
+    background-color: rgb(172, 194, 202); /* Optional: light gray background with 70% transparency */
+    padding: 20px; /* Adds padding inside each div */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center; /* Centers text horizontally within each div */
+    width: 210px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: start;
+    font-weight: 500;
+   /* text-align: justify;*/
+
+    border: solid 1px;
+}
+.üçalan div::first-line {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+@media only screen and (max-width: 767px) {
+    .backgroundt {
+        height: 450px;
+        
+        padding: 5px;
+    }
+
+    .backgroundt section .neden {
+        padding: 0px;
+translate: 0px -5px;
+
+    }
+
+    .backgroundt section .neden .nedenanazon {
+        font-size: 20px;
+        text-align: start;
+        
+    }
+
+    .üçalan {
+        flex-direction: column; /* Stack the divs vertically */
+        align-items: center;
+        gap: 10px; /* Less space between stacked divs */
+        translate: 0px -70px;
+    }
+
+    .üçalan div {
+        width: 95%; /* Full width for smaller screens */
+        font-size: 14px;
+        padding: 5px;
+        line-height: 20px;
+    }
+
+    .üçalan div::first-line {
+        font-size: 16px;
+        line-height: normal;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paket-container {
+    height: 700px;
+    background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/Untitled design.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the container */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .paketlerimiz p {
+  text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-weight: bolder;
+    color: #333;
+   
+
+  }
+  .Yolunuzu {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #3498db;
+    padding-bottom: 10px;
+  
+    translate: 0px -30px;
+}
+
+  
+
+  
+  .packages {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
+    
+    
+  }
+  
+  .package {
+    background-color: #e0e009;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .package:hover {
+    transform: translateY(-5px);
+  }
+  
+  .package h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .package h2 a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .package p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+  }
+  
+
+
+
+  .kendimize{
+    text-align: center;
+    background-color: rgb(13, 255, 0);
+    font-size: 25px;
+    padding: 15px;
+    border-radius:20px;
+    width: 900px;
+  }
+ 
+ .Bizesorun{
+    background-color:rgb(255, 183, 0);
+    width: 205px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+
+    margin-top: 20px;
+ }
+ .Bizesorun a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+
+ }
+ .Bizesorun:hover{
+    background-color:rgb(231, 166, 3);
+ }
+ .kendimize-container {
+    display: flex;
+    flex-direction: column; /* Stack the paragraphs vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Optional: Center text inside the paragraphs */
+    margin-top: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .paket-container {
+        height: 800px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .paketlerimiz p {
+        font-size: 25px;
+        translate: 0px -20px;
+    }
+
+    .Yolunuzu {
+        font-size: 20px;
+    }
+
+    .packages {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 0px;
+        translate: 0px -20px;
+    }
+
+    .package {
+        padding: 5px;
+    }
+
+    .package h2 {
+        font-size: 1.25em;
+    }
+
+    .package p {
+        font-size: 0.9em;
+    }
+
+    .kendimize {
+        font-size: 15px;
+        width: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .Bizesorun{
+       width: 140px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 20px;
+     }
+    .Bizesorun a{
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2px;
+    
+     }
+     .Bizesorun:hover{
+        background-color:rgb(231, 166, 3);
+     }
+    
+
+     .container {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column; /* Stack the paragraphs vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Optional: Center text inside the paragraphs */
+    }
+    
+    .container p {
+        margin: 0; /* Remove default margin */
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+.Sizianlıyoruz{
+    background-color: #e9e9e9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the elements vertically */
+    align-items: center; /* Centers the elements horizontally */
+    margin-top: 20px;
+}
+.Sizianlıyoruz h2{
+font-weight: 700;
+font-size: 35px;
+width: 237px;
+border-bottom: 5px solid #3498db;
+color: #000000;
+}
+.Sizianlıyoruz p{
+    font-size: 20px;
+ 
+    text-align: center;
+
+}
+
+.Sizianlıyoruz samp{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.group-members {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+}
+
+ .group-members h2{
+    text-align: center;
+    color: #005e03;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 5px solid #3498db;
+    color: #000000;
+
+}
+
+.member-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.member-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.member-item:hover {
+    transform: translateY(-5px);
+}
+
+.member-image {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.member-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.member-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.member-role {
+    font-size: 1rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .member-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .Sizianlıyoruz{
+        background-color: #e9e9e9;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers the elements vertically */
+        align-items: center; /* Centers the elements horizontally */
+        margin-top: 10px;
+    }
+    .Sizianlıyoruz h2{
+    font-weight: 500;
+    font-size: 25px;
+    width: 160px;
+    border-bottom: 15px solid rgb(255, 183, 0);;
+    
+    }
+    .Sizianlıyoruz p{
+        font-size: 16px;
+        text-align: start;
+    margin-top: -10px;
+    }
+    
+    .Sizianlıyoruz samp{
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.müşterihezmetleri-container{
+background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/fgvfgfg.png");   
+background-repeat: no-repeat;
+background-size: cover; /* Ensures the background image covers the entire area */
+height: 650px;
+ border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the table container */
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.müşterihezmetleri-container h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 5px solid #3498db;
+    padding: 20px;
+    color: #000000;
+
+}
+
+
+
+
+.İadeYönetimi{
+   border: solid 1px;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+  /*  background-color: rgb(172, 194, 202); /* Optional: light gray background with 70% transparency */
+    font-weight: 600;
+    position: relative;
+   /* text-align: justify;*/
+   margin-bottom: 5px;
+}
+.İadeYönetimi:hover{
+    background-color: #ddda;
+}
+
+.müşteri .İadeYönetimi::first-line {
+    font-size: 20px; /* Changes the font size of the first line */
+    line-height: 40px;
+   font-weight: 100;
+   
+}
+.müşteri .not{
+    font-size: 20px;
+    width: 90%;
+    font-weight: 700;
+}
+summary {
+    font-size: 1.2em; /* Adjust text size */
+    list-style: none; /* Remove the default triangle */
+    cursor: pointer; /* Make it clickable */
+    position: relative; /* So we can position the symbol */
+    padding-left: 40px; /* Increase the space between the symbol and text */
+}
+
+/* Add a custom right-pointing triangle symbol */
+summary::before {
+    content: "\25B6"; /* Unicode for a right arrow (triangle pointing to the right) */
+    font-size: 1.5em; /* Make the triangle bigger */
+    position: absolute;
+    left: 10px; /* Adjust the position to ensure the symbol aligns */
+    top: 0;
+    transition: transform 0.3s ease; /* Smooth rotation on toggle */
+}
+
+/* Rotate the triangle when <details> is open */
+details[open] summary::before {
+    transform: rotate(90deg); /* Rotate the triangle downwards */
+}
+
+.hemenbilgialt {
+    margin-top: 20px;
+}
+
+.hemenbilgialt a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(255, 183, 0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hemenbilgialt a:hover {
+    background-color:rgb(216, 159, 12);
+}
+/*.hemenbilgialt {
+    background-color:rgb(255, 183, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.hemenbilgialt a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+.hemenbilgialt:hover{
+    background-color:rgb(216, 159, 12);
+
+}*/
+
+@media only screen and (max-width: 767px) {
+    .müşterihezmetleri-container {
+        height: auto;
+ padding: 5px;
+    }
+
+    .müşterihezmetleri-container h1 {
+        font-size: 20px;
+        text-align: start;
+        margin-top: 5px;
+    }
+
+    .müşteri {
+        width: 100%;
+        padding: 0px;
+   
+    }
+
+    .müşteri .İadeYönetimi {
+        width: auto;
+        padding: 3px;
+        margin-bottom: 20px;
+    }
+
+    .hemenbilgialt {
+        width: auto;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.birebirtitel{
+background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/jututjjkukuytkuy.png");   
+background-repeat: no-repeat;
+background-size: cover; /* Ensures the background image covers the entire area */
+height: 850px;
+ border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the table container */
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    
+
+}
+
+.birebirtitel h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform:none;
+    border-bottom: 5px solid #3498db;
+    padding: 20px;
+    color: #000000;
+    
+
+
+}
+
+.danışmanlık{
+    margin-top:100px;
+}
+
+.danışmanlık p{
+    border: solid 1px;
+    margin-bottom: 40px;
+    background-color: rgb(172, 194, 202); /* Optional: light gray background with 70% transparency */
+    font-weight: 500;
+    line-height: 25px;
+    padding: 10px;
+    text-align: justify;
+border-radius: 10px;
+   width: 90%;
+}
+
+
+
+
+.danışmanlık samp{
+    font-size: 18px;
+    font-family:  sans-serif;
+    font-weight: 700;
+}
+
+
+
+.hemenbilgialtree {
+    background-color:rgb(255, 183, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 600px;
+    text-align: center;
+    margin-left:400px;
+}
+.hemenbilgialtree a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.hemenbilgialtree:hover{
+    background-color:rgb(216, 159, 12);
+
+}
+
+@media only screen and (max-width: 767px) {
+    .birebirtitel {
+        height: auto;
+        padding: 5px;
+    }
+
+    .birebirtitel h1 {
+        font-size: 20px;
+        padding: 0px;
+        text-align: start;
+    }
+    .danışmanlık{
+        margin-top: 20px;
+    }
+
+    .danışmanlık p {
+        padding: 5px;
+        font-size: 16px;
+        line-height: normal;
+        margin-bottom: 3px;
+        width: auto;
+    }
+
+    .hemenbilgialtree {
+        width: auto;
+        margin-left: 0;
+        padding: 5px;
+    
+    }
+    .hemenbilgialtree a{
+    font-size: 14px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.askıyaalınmadan-container{
+
+    margin-top: 30px;
+    background-color: #ffffff; /* White background for the table container */
+ 
+  
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.askıyaalınmadan-container h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: none;
+    border-bottom: 5px solid #3498db;
+    padding: 20px;
+    color: #000000;
+}
+
+.askıyaalınmadan{
+    display:flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+   
+    
+ 
+}
+.riskler{
+    
+    width: 500px;
+    background-color: rgb(172, 194, 202); /* Optional: light gray background with 70% transparency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the table container */
+    margin-bottom: 40px;
+}
+.riskler:hover{
+    border: solid 1px ;
+    
+}
+
+
+.riskler p{
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+
+
+}
+
+
+.askıyaalınmadan .image img{
+    width: 500px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .askıyaalınmadan {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center elements */
+        gap: 5px; /* Reduce gap */
+        height: auto;
+    }
+    
+    .riskler, .askıyaalınmadan .image img {
+        width: 100%; /* Full width for small screens */
+        max-width: 400px; /* Set a max width */
+    }
+    .riskler p{
+        font-size: 15px;
+        line-height: normal;
+        padding: 5px;
+        height: auto;
+        
+    }
+    
+    .askıyaalınmadan-container h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lesrisk{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 0px;
+width: 90%;
+margin-left: 4%;
+background-color: #ffffff;
+margin-top: 30px;
+border-radius: 8px; /* Rounded corners */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the table container */
+}
+
+
+
+.risk-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007BFF;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.risk-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.risk-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.risk-list li:hover {
+    background-color: #f0f0f0;
+    transform: translateX(5px);
+}
+
+.risk-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.risk-list a:hover {
+    color: #0056b3;
+}
+
+
+
+
+
+
+.risk-analizi {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    line-height: 1.8;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #ffffff;
+    border-left: 5px solid #d9534f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+  }
+  
+  .risk-analizi h2 {
+    color: #e74c3c;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+  }
+  
+  .risk-analizi p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .risk-analizi p:first-letter {
+    font-size: 26px;
+    font-weight: bold;
+    color: #e74c3c;
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+  
+    .lesrisk {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align items */
+        justify-content: center;
+        gap: 5px; /* Reduce gap */
+        padding-left: 0px;
+        width: 91%;
+        padding-right: 0px;
+    }
+    
+    .risk-container, .risk-analizi {
+        width: 91%; /* Increase width on small screens */
+        padding: 5px; /* Adjust padding */
+    }
+    
+    .risk-analizi h2 {
+        font-size: 20px; /* Adjust font size */
+    }
+    
+    .risk-analizi p {
+        font-size: 16px; /* Adjust font size */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iletişimbilgileri-container{
+
+
+padding-top: 20px;
+
+    margin-top: 30px;
+
+
+}
+
+
+
+
+
+.iletişimbilgileri-container h1{
+    text-transform:uppercase;
+    border-bottom: 5px solid #3498db;
+    padding: 20px;
+    color: #000000;
+
+}
+
+
+
+
+
+.iletişim{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/pexels-expect-best-79873-351264.jpg"); 
+background-repeat: no-repeat; 
+background-size: cover;
+width: auto;
+height: 500px;
+padding: 30px;
+
+}
+
+
+
+.iletişim div{
+    background-color: #ffffff;
+text-align: center;    
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    height: 150px;
+    margin-top: 45px;
+}
+.iletişim div img{
+    color: #000000;
+   width: 50px;
+   height: 50px;
+}
+
+
+
+
+ .iletişim div samp{
+    font-size: 25px;
+    font-weight: 700;
+ }
+
+ .iletişim a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+ }
+
+
+
+ @media screen and (max-width: 768px) {
+    .iletişim {
+        width: 90%; /* Increase width on small screens */
+        
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .iletişim div {
+        width: 91%; /* Full width for divs */
+        margin-top: 10px; /* Reduce margin */
+    }
+    .iletişimbilgileri{
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align items */
+        gap: 5px; /* Reduce gap */
+        padding-left: 0px;
+        
+
+    }
+    .iletişimbilgileri .image {
+        display: none; /* Hide image */
+    }
+    
+    .iletişimbilgileri-container h1 {
+        font-size: 24px; /* Adjust font size */
+        padding: 15px; /* Adjust padding */
+    }
+}
+
+
+
+
+
+.footer{
+   
+        display: flex;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;     /* Vertically centers the content */
+        flex-direction: column;  /* Stacks the <p> elements vertically */
+        text-align: center;      /* Centers the text */
+  
+background-color: #000000;    
+}
+
+
+.footer p{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/*   hadi dyl watt fi jenb */
+
+
+.bizeulaşın{
+   position: fixed;
+   right: 10px;
+   bottom:200px;
+}
+ .bizeulaşın .contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+
+    gap: 20px;
+}
+
+.bizeulaşın p {
+    margin: 0;
+    padding-right: 10px; /* Adjust the spacing as needed */
+    font-size: 20px;
+    background-color:rgb(255, 183, 0);
+    border-radius: 15px;
+    padding: 12px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px rgb(255, 183, 0), /* Outer glow */
+    0px 0px 15px rgb(255, 183, 0); /* Inner glow */
+}
+
+.bizeulaşın img {
+    height: 50px; /* Adjust the size of the image */
+    width: auto;
+    box-shadow: 0px 0px 5px rgb(77, 210, 0), /* Outer glow */
+    0px 0px 15px rgb(0, 202, 27); /* Inner glow */
+    border-radius: 10px;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daxı-container{
+   /* max-width: 1300px;*/
+    margin: 0 auto;
+    width:auto;
+    padding: 20px;
+    background-color: #ffffff;
+
+
+}
+
+
+.dropshipping {
+    background-color: #ffffff;
+   /* border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.dropshipping h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+border-bottom: #0056b3 solid 2px;
+}
+
+
+.animation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.process-flow {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.process-flow img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.animation-showcase {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.onepicback {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* This creates a responsive square */
+   /* background-size: cover;*/
+   background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    animation: maro 14s infinite 2s step-end;
+}
+
+@keyframes maro {
+    0%, 100% { background-image: url("imgs/ani/Lokasyondan bağımsız ve Kendi işiniz. (1).jpg"); }
+    25% { background-image: url("imgs/ani/Amerika'daki ara depoda gerçekleşecek işlem.jpg"); }
+    50% { background-image: url("imgs/ani/Amerika'dan satış yaptığınız ülkeye gönderilecek.jpg"); }
+    75% { background-image: url("imgs/ani/Lokasyondan bağımsız ve Kendi işiniz. (1).jpg"); }
+}
+
+.step-description {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .animation {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* hadi dyal animatıon dyl bzaaaf les photos*/
+/*
+.dropshipping{
+    padding: 30px;
+}
+
+.dropshipping h1{
+    text-align: center;
+padding-bottom: 10px;
+    border-bottom: solid 2px royalblue;
+}
+
+
+.animation{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: auto;
+    padding: 20px;
+}
+
+.sixpic{
+    width: 40%;
+    background-color: #d9534f;
+}
+
+
+ .sixpic img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.onepic {
+    display: flex;
+    justify-content: center;  /* Center horizontally 
+    align-items: center;      /* Center vertically 
+    width: 60%;
+    background-color: #c7c7c7;
+  }
+
+  .onepicback {
+    background-image: url("imgs/ani/Lokasyondan bağımsız ve Kendi işiniz. (1).jpg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    animation-name: maro;
+    animation-duration: 14s; /* 4 seconds per image, total duration 16 seconds 
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end; /* Instant change between images 
+    border: solid rgb(210, 193, 0) 5px;
+}
+
+@keyframes maro {
+    0% {
+        background-image: url("imgs/ani/Lokasyondan bağımsız ve Kendi işiniz. (1).jpg");
+        background-repeat: no-repeat;
+    }
+    25% {
+        background-image: url("imgs/ani/Amerika'daki ara depoda gerçekleşecek işlem.jpg"); 
+        background-repeat: no-repeat;
+       /* width: 500px;
+        height: 419px;
+    }
+    50% {
+        background-image: url("imgs/ani/Amerika'dan satış yaptığınız ülkeye gönderilecek.jpg"); 
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+    }
+    75% {
+        background-image: url("imgs/ani/Müşterinize teslim edilecek.jpg"); 
+        background-repeat: no-repeat;
+    }
+    100% {
+        background-image: url("imgs/ani/Lokasyondan bağımsız ve Kendi işiniz. (1).jpg"); 
+        background-repeat: no-repeat;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ekipimiz page  */
+
+
+.bizkimiz {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+ 
+    .bizkimiz{
+        margin-top: 50px;
+        font-size: 20px;
+        padding: 5px;
+        text-align: start;
+        border: solid 1px black;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    
+    
+
+    }
+
+/* ekipimiz page  */
+
+
+
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
+.section {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.section h2{
+    color: #FF9900;
+    text-align: start;
+    font-size: 25px;
+}
+    
+
+.highlight {
+    background-color: #fff3cd;
+    border-left: 5px solid var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+
+
+
+/* le texte en generale */
+
+.generale {
+    width: 70%;  /* Adjust width to create space */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for article */
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  h1 {
+    color: #146EB4; /* Amazon blue for headings */
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FF9900; /* Amazon orange border */
+    padding-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333333; /* Darker font color for readability */
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .generale p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF9900; /* Highlight first letter */
+  }
+  
+  .generale h1::before {
+    content: "📘 "; /* Icon before the title for article-like appearance */
+    
+  }
+  
+  a {
+    color: #146EB4; /* Blue for links */
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .generale {
+      width: 90%; /* Adjust width for smaller screens */
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sıfır risk paketlerimiz page */
+.planete{
+
+background-image: url("C:/Users/marou/OneDrive/Desktop/HTML.CSS/pro/imgs/pexels-nastyasensei-66707-335394.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+padding-bottom: 20px;
+}
+
+  .sıfıriskcard{
+     display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the elements vertically */
+    align-items: center; /* Centers the elements horizontally */
+    text-align: center;
+  }
+  .card-header h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .sıfıriskcard p{
+    font-size: 35px;
+    font-weight: bold;
+    width: 470px;
+    border: solid 2px rgb(163, 163, 163);
+    padding: 20px;
+    color: white;
+    
+  }
+
+
+  @media only screen and (max-width: 767px) {
+ 
+    .sıfıriskcard p{
+        font-size: 30px;
+        font-weight: bold;
+        width: auto;
+        border: solid 2px black;
+        padding: 15px;
+      }
+    
+    
+
+    }
+  .pricing-cards-container {
+    /*display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .pricing-card {
+    background-color: white;
+    width: 270px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .card-header {
+    background-color: #ffeb3b; /* Yellow background */
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .card-header h2{
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  .card-body p{
+    text-align: center;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .discounted-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .discount-banner {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .features li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .features li::before {
+    content: '✔'; /* Checkmark */
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .card-footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+ 
